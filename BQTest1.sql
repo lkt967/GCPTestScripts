@@ -1,3 +1,8 @@
+-- Prompt: "For each customer, identify their total spending, average order value, and the number of distinct product categories 
+-- they've purchased from. Then, categorize customers into loyalty tiers based on their total spending: 'Bronze' for spending 
+-- less than $1000, 'Silver' for spending between $1000 and $5000, and 'Gold' for spending over $5000. 
+-- Finally, show the top 5 product categories with the highest average order value across all customers."
+
 WITH
   CustomerSpending AS (
   SELECT

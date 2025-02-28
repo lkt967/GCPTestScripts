@@ -1,2 +1,2 @@
 # GCPTestScripts
-GCP Test Scripts
+This repo contains all the test code
